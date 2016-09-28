@@ -30,3 +30,5 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
 Blah blah blah blah blah
+
+BLAH BLAH BLAH
