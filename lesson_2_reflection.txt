@@ -21,14 +21,28 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches are helpful in situations where a software development project needs to
+    diverge in order to take multilpe directions.  In situations where a new feature
+    of a project being tested or where different versious are to be released, branches
+    are especially useful.  Branches also help when collaborating with others on a
+    project where multiple people contribute.
+
 How do the diagrams help you visualize the branch structure?
+
+    Diagrams help visualize branch structure by showing the chain of commits associated
+    in each branch relative to other branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Two branches merged together results in a single branch that combines the changes made
+    since the point at which the branch was created.  The resulting branch has the branch name 
+    of the branch checked out when the merge occured, unless the merge includes the master
+    branch in which master will be the name of the new branch. 
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-Blah blah blah blah blah
-
-BLAH BLAH BLAH
+    Git merging allows for systematic, methodical merging of multiple branches that is time efficient,
+    however merging may contain conflicts which cannot be automatically merged and requires a developer
+    to review the code before making a final commit that combines multilpe branches.
