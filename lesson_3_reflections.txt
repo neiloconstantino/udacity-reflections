@@ -16,7 +16,10 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks refer to clones that are specifically on GitHub.  A fork is when a GitHub user clones
+    another GitHub user's repository onto their own GitHub account as their own repository.   clones
+    would be used when duplicating a repository branch from a GitHub repository or from a local
+    repository.  A branch is a single path of a git repository from head to initialization.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
